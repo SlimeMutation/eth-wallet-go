@@ -1,5 +1,5 @@
 eth-wallet-go:
-	env GO111MODULE=on go build
+	go build
 
 clean:
 	rm eth-wallet-go
